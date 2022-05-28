@@ -1,37 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-body{
-    background : black;
+body {
+    background: pink;
     font-family: 'Times New Roman', Times, serif;
-    color: hotpink;
+    color: black;
     margin: 0;
 }
-header{
-    background:rgba(41, 40, 40, 0.527);
+
+header {
+    background: rgba(41, 40, 40, 0.527);
     padding-top: 2em;
 }
-header a{
-    color:rgba(223, 30, 159, 0.795);
+
+header a {
+    color: rgba(223, 30, 159, 0.795);
 }
-header li{
+
+header li {
     display: inline-block;
     font-size: 130%;
     padding: 0.1em;
     border-right: 1px solid black;
 }
-.rei{
+
+.rei {
     border-left: 1px solid black;
     margin-left: 5em;
 }
-.label{
-    float:right;
-    border:none;
+
+.label {
+    float: right;
+    border: none;
 }
-main{
+
+main {
     font-family: 'Dancing Script', cursive;
     margin-top: 0.1em;
 }
-.bg1,header{
+
+.bg1,
+header {
     background-image: url(images/firstbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,125 +47,157 @@ main{
     padding: 0.5em;
     display: flexbox;
 }
-.specific{
+
+.specific {
     display: inline-block;
 }
-.specific li{
+
+.specific li {
     display: block;
     font-size: 2rem;
 }
-.main{
+
+.main {
     display: inline-block;
 }
-.getit{
+
+.getit {
     margin-top: 5em;
 }
-img{
-    width:100%;
-    position:right;
+
+img {
+    width: 100%;
+    position: right;
 }
-td a{
+
+td a {
     color: rgb(140, 93, 184);
 }
-h1{
+
+h1 {
     text-align: center;
     text-decoration: underline rgb(255, 38, 0);
 }
-h2{
+
+h2 {
     text-align: left;
 }
-h3{
+
+h3 {
     text-align: center;
 }
-.copr{
+
+.copr {
     text-align: left;
 }
-.lapse{
-    margin:0 1em;
+
+.lapse {
+    margin: 0 1em;
     background-color: whitesmoke;
     padding: 0 0.5em;
     border-radius: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-table, tr, th, td{
+
+table,
+tr,
+th,
+td {
     border: 2px solid black;
 }
-table a{
+
+table a {
     color: rgb(56, 179, 255);
 }
-.foter h2{
+
+.foter h2 {
     padding-left: 0.5em;
 }
-.foter li{
+
+.foter li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.open-it{
-    padding:0.5em 0;
+
+.open-it {
+    padding: 0.5em 0;
     margin: 1em;
-    border: 0.2em double blueviolet; 
+    border: 0.2em double blueviolet;
 }
-.open-it li{
+
+.open-it li {
     margin: 1em 2em;
     display: block;
 }
-.fre{
+
+.fre {
     margin: 1em;
     border: 0.2em double rgb(220, 240, 44);
 }
-.fre li{
+
+.fre li {
     margin: 1em 2em;
 }
-.sep{
+
+.sep {
     margin: 5em 1em;
 }
-.sep p{
+
+.sep p {
     margin: 1em 2em;
     color: brown;
     padding: 0.5em 1.5em;
     font-family: -apple-system, sans-serif;
     font-weight: bold;
 }
-footer{
-    background : rgba(101, 10, 185, 0.459);
+
+footer {
+    background: rgba(101, 10, 185, 0.459);
     color: crimson;
 }
-.bottom{
+
+.bottom {
     color: cornsilk;
 }
-@media only screen and (min-width: 950px){
-    .foter{
+
+@media only screen and (min-width: 950px) {
+    .foter {
         display: flex;
     }
-    .open-it{
+
+    .open-it {
         display: inline-block;
     }
-    .fre{
+
+    .fre {
         display: inline-block;
     }
 }
 
-@media only screen and (min-width: 650px){
-    .retil{
+@media only screen and (min-width: 650px) {
+    .retil {
         display: flex;
     }
-    .frt{
+
+    .frt {
         display: inline-block;
         width: 70%;
         align-items: right;
     }
-    .left{
+
+    .left {
         display: inline-block;
-        margin-right:5em;
+        margin-right: 5em;
         padding-right: 5em;
         width: 30%;
     }
 }
 
-@media only screen and (max-width: 850px){
-    .nav-list{
+@media only screen and (max-width: 850px) {
+    .nav-list {
         visibility: hidden;
     }
-    .label{
+
+    .label {
         visibility: visible;
         float: left;
     }

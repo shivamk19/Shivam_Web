@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    border: 1em;
+    background: rgba(233, 226, 187, 0.856);
+    color: black;
+}
+.first{
+    background: rgba(255, 0, 0, 0.226);
+    display: block;
+}
+.nav-list li{
+    font-family: 'Dancing Script',cursive ;
+    display: inline-block;
+    margin: 0.1em;
+    font-size: 1.5rem;
+}
+.label{
+    margin-right: 0;
+    float:right;
+}
+.specific li{
+    text-align: center;
+    display: block;
+}
+.bg1{
+    background-image: url(images/city.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 2em 0 14em 0;
+}
+h1{
+    color: yellow;
+}
+h3{
+    text-align: center;
+    background: orange;
+    color: white;
+}
+a{
+    color:blue;
+}
+.getit{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+}
+.piol{
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    position: center;
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.info-add{
+    color: blue;
+}
+.footer-main{
+    background-image: url(images/texture.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    position: center;
+}
+
+@media only screen and (min-width: 1200px){
+    .fig{
+        display: flex;
+    }
+    .fig div{
+        display: inline-flex;
+    }
+    .fig li{
+        text-align: center;
+        display: block;
+    }
+    .main{
+        float: right;
+    }
+}
