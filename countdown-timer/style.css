@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+a {
+    color: yellow;
+}
+
 h1 {
     color: white;
     font-weight: normal;
